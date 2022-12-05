@@ -3,4 +3,4 @@ project(yandex_console)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(yandex_console main.cpp yandex_contest.cpp leet_code.cpp coursera.cpp)
+add_executable(yandex_console src/yandex_contest.cpp src/leet_code.cpp src/coursera/max_pairwise_product.cpp)
