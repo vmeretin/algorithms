@@ -8,7 +8,7 @@ void stonesAndJeweleries() {
 
     int result = 0;
 
-    for (char stone : stones) {
+    for (char stone: stones) {
         if (jeweleries.find(stone) != std::string::npos) {
             result++;
         }
@@ -54,7 +54,7 @@ void distinct() {
     }
 }
 
-void generate(int n, const std::string& s, int open, int closed) {
+void generate(int n, const std::string &s, int open, int closed) {
     if (s.length() == n * 2) {
         std::cout << s << std::endl;
         return;
@@ -65,7 +65,7 @@ void generate(int n, const std::string& s, int open, int closed) {
     }
 
     if (closed < open) {
-        generate(n, s + ")", open, closed  + 1);
+        generate(n, s + ")", open, closed + 1);
     }
 }
 
@@ -77,10 +77,10 @@ void bracesGenerator() {
     generate(n, "(", 1, 0);
 }
 
-std::map<char, int> getMap(const std::string& word) {
+std::map<char, int> getMap(const std::string &word) {
     std::map<char, int> map;
 
-    for (char currentChar : word) {
+    for (char currentChar: word) {
         int currentValue = map[currentChar];
 
         if (map.count(currentChar)) {
