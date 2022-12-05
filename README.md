@@ -1,0 +1,3 @@
+- Yandex Contest https://contest.yandex.ru/contest/8458
+- LeetCode https://leetcode.com/
+- Coursera https://www.coursera.org/learn/algorithmic-toolbox
