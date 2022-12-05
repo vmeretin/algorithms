@@ -3,4 +3,4 @@ project(yandex_console)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(yandex_console main.cpp yandex_contest.cpp)
+add_executable(yandex_console main.cpp yandex_contest.cpp leet_code.cpp)
